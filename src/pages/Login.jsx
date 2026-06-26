@@ -57,6 +57,11 @@ function Login() {
                 {showPassword ? "Hide" : "Show"}
               </button>
             </div>
+            <div className="mt-2 text-right">
+              <Link to="/forgot-password" className="text-sm font-medium text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300">
+                Forgot password?
+              </Link>
+            </div>
           </div>
 
           <button
